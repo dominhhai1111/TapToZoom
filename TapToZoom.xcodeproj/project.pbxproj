@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E104E33C1BEDB048009DFA15 /* minions.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E104E33B1BEDB048009DFA15 /* minions.jpeg */; };
 		E1F4E6911BEA24B100329371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F4E6901BEA24B100329371 /* main.m */; };
 		E1F4E6941BEA24B100329371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F4E6931BEA24B100329371 /* AppDelegate.m */; };
 		E1F4E6971BEA24B100329371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F4E6961BEA24B100329371 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E104E33B1BEDB048009DFA15 /* minions.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minions.jpeg; sourceTree = "<group>"; };
 		E1F4E68B1BEA24B100329371 /* TapToZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapToZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F4E68F1BEA24B100329371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F4E6901BEA24B100329371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		E1F4E68D1BEA24B100329371 /* TapToZoom */ = {
 			isa = PBXGroup;
 			children = (
+				E104E33B1BEDB048009DFA15 /* minions.jpeg */,
 				E1F4E6921BEA24B100329371 /* AppDelegate.h */,
 				E1F4E6931BEA24B100329371 /* AppDelegate.m */,
 				E1F4E6951BEA24B100329371 /* ViewController.h */,
@@ -202,6 +205,7 @@
 				E1F4E69A1BEA24B100329371 /* Main.storyboard in Resources */,
 				E1F4E69F1BEA24B100329371 /* LaunchScreen.xib in Resources */,
 				E1F4E69C1BEA24B100329371 /* Images.xcassets in Resources */,
+				E104E33C1BEDB048009DFA15 /* minions.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +420,7 @@
 				E1F4E6B01BEA24B100329371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1F4E6B11BEA24B100329371 /* Build configuration list for PBXNativeTarget "TapToZoomTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E1F4E6B31BEA24B100329371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
